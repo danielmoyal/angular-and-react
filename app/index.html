@@ -7,17 +7,7 @@
     <!--    <link rel="stylesheet" type="text/css" href="style.less">-->
     <title>Example Project</title>
 </head>
-<body ng-app="exampleProject" layout="column" ng-controller="homeController">
 
-{{message}}
-
-<script src="../node_modules/angular/angular.js"></script>
-<script src="../node_modules/angular-animate/angular-animate.js"></script>
-<script src="../node_modules/angular-aria/angular-aria.js"></script>
-<script src="../node_modules/angular-messages/angular-messages.js"></script>
-<script src="../node_modules/angular-material/angular-material.js"></script>
-<script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
-<script src="app.js"></script>
-<script src="home.controller.js"></script>
+<ui-view layout="column" mk-background="background-900" flex></ui-view>
 </body>
 </html>
